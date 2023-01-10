@@ -3,11 +3,13 @@
 """
 	Returns the JSON representation of an object(string)
 """
+import json
 
 def to_json_string(my_obj):
 	"""
-		Args: my_obj - the string to be converted to JSON
+		Args: my_obj - the object to be converted to JSON
+		Returns:
+		The json representation of my_obj
+
 	"""
-json_string = json.dumps(my_obj)
-print(json_string)
-print(type(json_string))
+return json.dumps(my_obj)
