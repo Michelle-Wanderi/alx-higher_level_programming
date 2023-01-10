@@ -3,6 +3,7 @@
 """
 	Returns an object represented by a json string
 """
+import json
 	
 def from_json_string(my_str):
 
@@ -11,4 +12,4 @@ def from_json_string(my_str):
 	
 	Returns : an object parsed for the json string
 """
-return json.dumps(my_str)
+return json.loads(my_str)
