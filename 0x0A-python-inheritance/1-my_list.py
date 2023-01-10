@@ -1,9 +1,8 @@
-class my_list:
-    def __init__(self,my_list):
-        self.my_list = my_list
+class MyList(list):
+	
+def print_sorted(self):
+        """
+        prints the list in ascending order
+        """
+        print(sorted(self))
 
-    def print_sorted(self):
-        print(sorted(self.my_list))
-
-My_List = my_list([3,1,2])
-My_List.print_sorted()
