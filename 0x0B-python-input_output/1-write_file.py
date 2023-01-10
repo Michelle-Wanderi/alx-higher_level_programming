@@ -1,4 +1,4 @@
-#!/usr/bini/python3
+#!/usr/bin/python3
 """
 Written a string to a text file and returns the number of characters written
 """
