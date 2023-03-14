@@ -5,7 +5,11 @@ class Rectangle {
     height(h);
 
     constructor(w,h){
-        this.width = w
-        this.height = h
-    }
+       
+{
+  
+  }
+
+
+  }
 };
