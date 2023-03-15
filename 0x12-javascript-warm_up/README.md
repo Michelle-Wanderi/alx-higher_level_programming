@@ -1,0 +1,1 @@
+This repository contains exercises done for Javascript Warm-Up
